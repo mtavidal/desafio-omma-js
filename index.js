@@ -31,5 +31,6 @@ form.addEventListener ("submit", (evento) => {
 
     articleReceitas.innerHTML += `${itemReceita}`;
     painel.append(articleReceitas);
+    form.reset();
 
 })
